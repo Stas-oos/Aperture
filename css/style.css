@@ -1,9 +1,7 @@
 * {
-    background-color: black;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: aliceblue;
 }
 .container {
     max-width: 1200px;
@@ -16,6 +14,8 @@
     justify-content: space-around;
     height: 90px;
     align-items: center;
+    background-color: black;
+    color: white;
 }
 .menu{
     display: flex;
@@ -56,6 +56,7 @@
     background: transparent;
     text-align: center;
     align-items: center;
+    color: white;
 }
 .flex h1{
     margin-bottom: 18px;
@@ -63,13 +64,66 @@
 .satings-foto{
     display: flex;
     list-style: none;
-    justify-content: flex-end;
 
 }
 .left{
     max-width: 600px;
     text-align: center;
-
 }
-
+.right{
+    justify-content: flex-end;
+    margin-left: 1000px;
+    display: flex;
+}
+.satings-foto p{
+    padding-left: 30px;
+}
+.satings-foto1:before{
+        content: "";
+        display: inline-block;
+        height: 16px;
+        width: 16px;
+        position: absolute;
+        background-image: url("../images/IMAGE2.svg");
+        left: 10px;
+}
+.satings-foto1{
+    position: relative;
+}
+.satings-foto2:before{
+    content: "";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    background-image: url("../images/IMAGE(1).svg");
+    left: 10px;
+}
+.satings-foto2{
+    position: relative;
+}
+.satings-foto3:before{
+    content: "";
+    display: inline-block;
+    height: 16px;
+    width: 32px;
+    position: absolute;
+    background-image: url("../images/IMAGE(2).svg");
+    left: 0px;
+}
+.satings-foto3{
+    position: relative;
+}
+.satings-foto4:before{
+    content: "";
+    display: inline-block;
+    height: 16px;
+    width: 10px;
+    position: absolute;
+    background-image: url("../images/IMAGE(3).svg");
+    left: 15px;
+}
+.satings-foto4{
+    position: relative;
+}
 
