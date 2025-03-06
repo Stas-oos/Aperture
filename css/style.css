@@ -45,16 +45,31 @@
     background: url(../images/IMAGE.png) no-repeat center / cover, #000;
     background-attachment: fixed;
     height: calc(100vh - 8rem);
-    padding: 4rem 0;
 
 }
-.ferst .flex{
+.flex{
+    display: flex;
+    flex-direction: row;
     height: 100%;
     flex-direction: column;
     justify-content: flex-end;
     background: transparent;
-    height: 209px;
-    width: 600px;
+    text-align: center;
+    align-items: center;
+}
+.flex h1{
+    margin-bottom: 18px;
+}
+.satings-foto{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+
+}
+.left{
+    max-width: 600px;
+    text-align: center;
+
 }
 
 
