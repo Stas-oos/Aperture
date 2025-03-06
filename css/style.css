@@ -161,6 +161,7 @@
     text-align: center;
     align-items: center;
     color: white;
+    font-family: "Poppins", sans-serif;
 }
 .flex h1{
     margin-bottom: 18px;
@@ -179,7 +180,7 @@
     display: flex;
 }
 .satings-foto p{
-    padding-left: 30px;
+    padding-left: 35px;
 }
 .satings-foto1:before{
         content: "";
@@ -189,6 +190,7 @@
         position: absolute;
         background-image: url("../images/IMAGE2.svg");
         left: 10px;
+        top: 2px;
 }
 .satings-foto1{
     position: relative;
@@ -201,6 +203,7 @@
     position: absolute;
     background-image: url("../images/IMAGE(1).svg");
     left: 10px;
+    top: 2px;
 }
 .satings-foto2{
     position: relative;
@@ -213,6 +216,7 @@
     position: absolute;
     background-image: url("../images/IMAGE(2).svg");
     left: 0px;
+    top: 2px;
 }
 .satings-foto3{
     position: relative;
@@ -225,6 +229,7 @@
     position: absolute;
     background-image: url("../images/IMAGE(3).svg");
     left: 15px;
+    top: 2px;
 }
 .satings-foto4{
     position: relative;
