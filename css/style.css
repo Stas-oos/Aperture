@@ -27,14 +27,12 @@
     margin-left: 32px;
     color: white;
     text-decoration: none;
-
 }
 .btn{
     padding: 11px 20px;
     background-color: white;
     border: white solid 1px;
     border-radius: 6px;
-
 }
 .menu__item .btn span{
     position: relative;
@@ -45,7 +43,6 @@
     background: url(../images/IMAGE.png) no-repeat center / cover, #000;
     background-attachment: fixed;
     height: calc(100vh - 8rem);
-
 }
 .flex{
     display: flex;
@@ -64,7 +61,6 @@
 .satings-foto{
     display: flex;
     list-style: none;
-
 }
 .left{
     max-width: 600px;
