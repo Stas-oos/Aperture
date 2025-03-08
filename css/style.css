@@ -153,7 +153,7 @@
 }
 .flex{
     display: flex;
-    flex-direction: row;
+    /*flex-direction: row;*/
     height: 100%;
     flex-direction: column;
     justify-content: flex-end;
@@ -220,7 +220,7 @@
     width: 32px;
     position: absolute;
     background-image: url("../images/IMAGE(2).svg");
-    left: 0px;
+    left: 0;
     top: 2px;
 }
 .satings-foto3{
@@ -253,11 +253,9 @@
 .frame4 span{
     font-size: 1.5rem;
     font-weight: bold;
-
 }
 .frame2{
     display: flex;
-
 }
 .frame2-img{
     background: url(../images/IMAGE3.png) no-repeat center / cover, #000;
@@ -270,6 +268,7 @@
     color: white;
     margin-left: 16px;
     font-family: "Poppins", sans-serif;
+    margin-bottom: 16px;
 }
 .areas{
     display: flex;
@@ -280,10 +279,7 @@
 .container2{
     max-width: 1200px;
     margin: auto;
-    margin: 120px;
-}
-.frame2-img h3{
-
+    margin: 0 120px 120px 120px;
 }
 .frame2-img2{
     background: url(../images/IMAGE5.png) no-repeat center / cover, #000;
@@ -308,6 +304,7 @@
     color: white;
     margin-left: 16px;
     font-family: "Poppins", sans-serif;
+    margin-bottom: 16px;
 }
 .frame2-img4{
     background: url(../images/IMAGE6.png) no-repeat center / cover, #000;
@@ -341,8 +338,25 @@
     border: white solid 1px;
     border-radius: 6px;
     font-weight: bold;
-
 }
 .images8{
     font-weight: lighter;
+}
+.contact{
+    background: url(../images/IMAGE8.png) no-repeat center / cover, #000;
+    background-attachment: fixed;
+    height: calc(100vh - 8rem);
+}
+.container3{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.frame4text{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
 }
