@@ -366,8 +366,28 @@
     max-width: 300px;
     margin-bottom: 200px;
 }
+.left2 h1{
+    font-weight: normal;
+}
 .right2{
     align-items: flex-end;
     margin-left: 1000px;
     display: flex;
+}
+.container4{
+   display: flex;
+    max-width: 1200px;
+    margin: auto;
+    align-items: flex-end;
+}
+.frame5-left{
+
+    background-color: black;
+    color: white;
+    max-width: 720px;
+}
+.frame5-raight{
+    background: url(../images/IMAGE9.png) no-repeat center / cover, #000;
+    max-width: 720px;
+    height: 600px;
 }
