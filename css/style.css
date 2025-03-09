@@ -153,7 +153,6 @@
 }
 .flex{
     display: flex;
-    /*flex-direction: row;*/
     height: 100%;
     flex-direction: column;
     justify-content: flex-end;
@@ -351,12 +350,24 @@
     max-width: 1200px;
     margin: auto;
     display: flex;
-    justify-content: space-between;
     align-items: flex-end;
 }
-.frame4text{
+.frame6{
     display: flex;
     flex-direction: column;
-    justify-content: right;
+    justify-content: end;
     align-items: center;
+    max-width: 300px;
+}
+.frame4-text{
+    margin-bottom: 200px;
+}
+.left2{
+    max-width: 300px;
+    margin-bottom: 200px;
+}
+.right2{
+    align-items: flex-end;
+    margin-left: 1000px;
+    display: flex;
 }
