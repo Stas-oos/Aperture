@@ -277,7 +277,6 @@
 }
 .container2{
     max-width: 1200px;
-    margin: auto;
     margin: 0 120px 120px 120px;
 }
 .frame2-img2{
@@ -376,18 +375,40 @@
 }
 .container4{
    display: flex;
-    max-width: 1200px;
+    align-items: center;
     margin: auto;
-    align-items: flex-end;
+    font-family: "Poppins", sans-serif;
 }
 .frame5-left{
-
-    background-color: black;
+    align-items: center;
     color: white;
     max-width: 720px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .frame5-raight{
-    background: url(../images/IMAGE9.png) no-repeat center / cover, #000;
-    max-width: 720px;
     height: 600px;
+    width: 100%;
+    position: relative;
+}
+.frame5{
+    background-color: black;
+}
+.frame5-raight img{
+    position: absolute;
+    left: -219px;
+}
+.satings-foto-frame5{
+    display: flex;
+    justify-content: end;
+    color: white;
+
+}
+.satings-foto-frame5 li{
+    margin-left: 40px;
+    list-style: none;
+    /*position: absolute;*/
+}
+.satings-foto-frame5 li:before{
+    margin-left: -35px;
 }
