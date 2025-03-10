@@ -151,7 +151,6 @@
     background: url(../images/IMAGE.png) no-repeat center / cover, #000;
     background-attachment: fixed;
     height: calc(100vh - 8rem);
-    height: 600px;
 }
 .flex{
     display: flex;
@@ -171,7 +170,7 @@
     display: flex;
     list-style: none;
     position: absolute;
-    left: 900px;
+    right: 70px;
     bottom: 10px;
 }
 .left{
@@ -376,7 +375,6 @@
 }
 .right2{
     align-items: flex-end;
-    margin-left: 1000px;
     display: flex;
 }
 .container4{
@@ -412,7 +410,25 @@
     list-style: none;
 }
 .frame5-raight .satings-foto {
-    left: 1050px;
+    /*left: 1050px;*/
     bottom: 30px;
     color: white;
+}
+.frame8{
+    background: url(../images/IMAGE10.png) no-repeat center / cover, #000;
+    background-attachment: fixed;
+    height: calc(100vh - 8rem);
+}
+.container5{
+    max-width: 300px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+    color: white;
+}
+.container6{
+    max-width: 1200px;
+
 }
