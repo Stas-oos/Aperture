@@ -115,6 +115,7 @@
     margin: auto;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 .header{
     display: flex;
@@ -150,6 +151,7 @@
     background: url(../images/IMAGE.png) no-repeat center / cover, #000;
     background-attachment: fixed;
     height: calc(100vh - 8rem);
+    height: 600px;
 }
 .flex{
     display: flex;
@@ -168,6 +170,9 @@
 .satings-foto{
     display: flex;
     list-style: none;
+    position: absolute;
+    left: 900px;
+    bottom: 10px;
 }
 .left{
     max-width: 600px;
@@ -350,6 +355,7 @@
     margin: auto;
     display: flex;
     align-items: flex-end;
+    position: relative;
 }
 .frame6{
     display: flex;
@@ -378,6 +384,7 @@
     align-items: center;
     margin: auto;
     font-family: "Poppins", sans-serif;
+    position: relative;
 }
 .frame5-left{
     align-items: center;
@@ -387,28 +394,25 @@
     margin-right: 100px;
 }
 .frame5-raight{
-    height: 600px;
     width: 100%;
-    position: relative;
 }
 .frame5{
     background-color: black;
 }
 .frame5-raight img{
-    position: absolute;
     left: -219px;
 }
 .satings-foto-frame5{
     display: flex;
     justify-content: end;
     color: white;
-
 }
 .satings-foto-frame5 li{
     margin-left: 40px;
     list-style: none;
-    /*position: absolute;*/
 }
-.satings-foto-frame5 li:before{
-    margin-left: -35px;
+.frame5-raight .satings-foto {
+    left: 1050px;
+    bottom: 30px;
+    color: white;
 }
