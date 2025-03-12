@@ -172,6 +172,7 @@
     position: absolute;
     right: 70px;
     bottom: 10px;
+    left: 1000px;
 }
 .left{
     max-width: 600px;
@@ -261,7 +262,6 @@
     display: flex;
 }
 .frame2-img{
-    background: url(../images/IMAGE3.png) no-repeat center / cover, #000;
     max-width: 576px;
     height: 600px;
     display: flex;
@@ -272,53 +272,24 @@
     margin-left: 16px;
     font-family: "Poppins", sans-serif;
     margin-bottom: 16px;
+}
+.frame2-img img{
+    position: relative;
+}
+.frame2-text {
+    position: absolute;
+    max-width: 575px;
 }
 .areas{
     display: flex;
     flex-direction: row;
     background-color: black;
     color: white;
+    padding-top: 80px;
 }
 .container2{
     max-width: 1200px;
     margin: 0 120px 120px 120px;
-}
-.frame2-img2{
-    background: url(../images/IMAGE5.png) no-repeat center / cover, #000;
-    max-width: 576px;
-    height: 600px;
-    display: flex;
-    justify-content: end;
-    align-items: start;
-    flex-direction: column;
-    color: white;
-    margin-left: 16px;
-    font-family: "Poppins", sans-serif;
-}
-.frame2-img3{
-    background: url(../images/IMAGE4.png) no-repeat center / cover, #000;
-    max-width: 576px;
-    height: 600px;
-    display: flex;
-    justify-content: end;
-    align-items: start;
-    flex-direction: column;
-    color: white;
-    margin-left: 16px;
-    font-family: "Poppins", sans-serif;
-    margin-bottom: 16px;
-}
-.frame2-img4{
-    background: url(../images/IMAGE6.png) no-repeat center / cover, #000;
-    max-width: 576px;
-    height: 600px;
-    display: flex;
-    justify-content: end;
-    align-items: start;
-    flex-direction: column;
-    color: white;
-    margin-left: 16px;
-    font-family: "Poppins", sans-serif;
 }
 .images8 h3{
     margin-left: 30px;
@@ -369,6 +340,7 @@
 .left2{
     max-width: 300px;
     margin-bottom: 200px;
+    text-align: left;
 }
 .left2 h1{
     font-weight: normal;
@@ -383,6 +355,10 @@
     margin: auto;
     font-family: "Poppins", sans-serif;
     position: relative;
+    max-width: 1440px;
+}
+.container4 .satings-foto{
+    left: 1100px;
 }
 .frame5-left{
     align-items: center;
@@ -396,6 +372,7 @@
 }
 .frame5{
     background-color: black;
+    height: 540px;
 }
 .frame5-raight img{
     left: -219px;
@@ -431,4 +408,24 @@
 .container6{
     max-width: 1200px;
 
+}
+.link{
+        display: inline-flex;
+        align-items: center;
+        background-color: white;
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+        border: 2px solid black;
+}
+.link:before{
+    content: "";
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    border-radius: 40%;
+    margin-right: 8px;
 }
