@@ -170,13 +170,16 @@
     display: flex;
     list-style: none;
     position: absolute;
-    right: 70px;
+    right: 40px;
     bottom: 10px;
-    left: 1000px;
+}
+.satings-foto li{
+    display: flex;
 }
 .left{
     max-width: 600px;
     text-align: center;
+    margin-bottom: 60px;
 }
 .left h1{
     font-weight: bold;
@@ -185,60 +188,57 @@
 }
 .right{
     justify-content: flex-end;
-    margin-left: 1000px;
+    /*margin-left: 1000px;*/
     display: flex;
 }
 .satings-foto p{
-    padding-left: 35px;
+    padding-left: 5px;
 }
 .satings-foto1:before{
         content: "";
         display: inline-block;
         height: 16px;
         width: 16px;
-        position: absolute;
         background-image: url("../images/IMAGE2.svg");
         left: 10px;
         top: 2px;
+    margin-left: 5px;
 }
 .satings-foto1{
     position: relative;
 }
 .satings-foto2:before{
     content: "";
-    display: inline-block;
     height: 16px;
     width: 16px;
-    position: absolute;
     background-image: url("../images/IMAGE(1).svg");
     left: 10px;
     top: 2px;
+    margin-left: 5px;
 }
 .satings-foto2{
     position: relative;
 }
 .satings-foto3:before{
     content: "";
-    display: inline-block;
     height: 16px;
     width: 32px;
-    position: absolute;
     background-image: url("../images/IMAGE(2).svg");
     left: 0;
     top: 2px;
+    margin-left: 5px;
 }
 .satings-foto3{
     position: relative;
 }
 .satings-foto4:before{
     content: "";
-    display: inline-block;
     height: 16px;
     width: 10px;
-    position: absolute;
     background-image: url("../images/IMAGE(3).svg");
     left: 15px;
-    top: 2px;
+    /*top: 5px;*/
+    margin-left: 5px;
 }
 .satings-foto4{
     position: relative;
@@ -282,7 +282,7 @@
 }
 .areas{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     background-color: black;
     color: white;
     padding-top: 80px;
