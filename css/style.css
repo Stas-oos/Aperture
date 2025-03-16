@@ -712,7 +712,7 @@ body {
     flex-direction: column;
     align-items: center;
   }
-  .header {
+  header {
     flex-direction: column;
     height: auto;
     padding: 10px 0;
@@ -720,6 +720,9 @@ body {
   .menu {
     flex-direction: column;
     align-items: center;
+  }
+  .container7 {
+    height: auto;
   }
   .menu__item-link {
     margin: 10px 0;
@@ -804,6 +807,9 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+  .partners {
+    height: auto;
   }
   .footer5 {
     margin-left: 0;
