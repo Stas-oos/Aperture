@@ -655,7 +655,7 @@ body {
 .input-container {
   display: flex;
   align-items: center;
-  width: 458px;
+  max-width: 458px;
   height: 52px;
   background: rgb(249, 250, 251);
   border-radius: 12px;
