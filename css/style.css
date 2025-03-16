@@ -953,8 +953,6 @@ body {
     max-width: 1200px;
   }
   .hero__combined {
-    -webkit-transform: none;
-    -ms-transform: none;
     transform: none;
   }
 }
@@ -985,25 +983,15 @@ body {
     display: none;
   }
   .menu.active {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     left: 0;
     top: 0;
     height: 100vh;
     width: 100vw;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
     pointer-events: all;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-animation: fade 0.1s linear;
     animation: fade 0.1s linear;
   }
   .burger {
@@ -1016,27 +1004,17 @@ body {
   }
   .burger.active-burger:before {
     background: white;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    -webkit-transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
-    -o-transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
     transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
     top: 8px;
   }
   .burger.active-burger:after {
     background: white;
-    -webkit-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
     bottom: 10px;
-    -webkit-transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
-    -o-transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
     transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
   }
   .burger.active-burger span {
-    -webkit-transform: scale(0);
-    -ms-transform: scale(0);
     transform: scale(0);
   }
   .burger:after, .burger:before {
@@ -1045,8 +1023,6 @@ body {
     height: 2px;
     width: 100%;
     background: white;
-    -webkit-transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
-    -o-transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
     transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
   }
   .burger:before {
@@ -1062,26 +1038,13 @@ body {
     width: 100%;
     background: white;
     height: 2px;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
     transform: scale(1);
-    -webkit-transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
-    -o-transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
     transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
-  }
-  .menu__item {
-    margin-top: 15px;
-  }
-  .menu__item-link {
-    color: #fff;
   }
 }
 @media (max-width: 991.98px) and (max-width: 479.98px) {
   .container {
     max-width: none;
-  }
-  .hero__combined {
-    align-self: center;
   }
 }
 
